@@ -1,0 +1,74 @@
+/*PARTE I - Sintaxis CSS - Comentarios*/
+/*Color de fondo general del sitio*/
+body { background-color: #f9f9f9; }
+
+/*PARTE II - Integracion de CSS con HTML5*/
+ /*<h1 style="color: red;">
+  <style> h1 { color: blue; } </style>
+   <link rel="stylesheet" href="styles.css">*/
+
+/*PARTE III - Selector Universal - Reset General*/
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; color: #212121; }
+
+/*PARTE IV - Selector de Clases*/
+/*<nav class="navbar">, <a class="nav-link">*/
+
+.navbar { display: flex; 
+          gap: 16px; 
+		  list-style: none; 
+		}
+		
+.nav-link {color: #1b2a4a; 
+           text-decoration: none; 
+		   font-weight: bold; 
+		   }
+
+.btn {background-color: #e8791a; 
+      color: #ffffff; 
+	  border: none; 
+      padding: 8px 16px; 
+      border-radius: 4px; 
+	  }
+
+.card { margin-bottom: 12px; 
+      padding: 8px; 
+	  border: 1px solid #dddddd; 
+	  }
+/*PARTE V - Selector de Id*/
+/*<section id="video-player">*/
+
+#video-player { max-width: 720px; 
+                margin: 24px auto; 
+			  }
+
+#sugeridos { width: 300px; 
+             background-color: #eef1f6; 
+			 padding: 12px; 
+			}
+
+#pie { background-color: #1b2a4a; 
+       color: #ffffff; padding: 16px; 
+	   text-align: center; 
+	 }
+
+/*PARTE VI - Selector de Agrupación y Ajustes Finales*/
+h1, h2, h3, h4, h5 { font-family: Arial, sans-serif; 
+             color: #1b2a4a; 
+			 margin-bottom: 8px
+		   }
+
+input[type="search"]:focus, 
+textarea:focus { 
+	          outline: 2px solid #e8791a; 
+			}
+
+img { max-width: 100%; 
+      height: auto; 
+	  display: block; 
+	}
+
+header { padding: 16px; }                       /* aire alrededor del encabezado */
+main { padding: 0 16px; }                       /* que el contenido no pegue al borde */
+section { margin-bottom: 24px; }                /* separar video y formulario */
+label { display: block; margin-bottom: 4px; }   /* etiqueta encima de su campo */
