@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- 2.2.1 Elemento Raíz con idioma -->
+<html lang="es">
+<head>
+    <!-- 2.2.2 Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- TODO 1: Completa tus datos de autor (Anti-Plagio) -->
+    <meta name="author" content="Benjamín Concepción Colman - Cedula: 4-703-781">
+    <meta name="description" content="Portal de Recursos Académicos y Multimedia UTP">
+    
+    <title>Reporte de Incidencias</title>
+    
+<link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!-- 2.2.4 Secciones: Encabezado Principal -->
+    <header>
+        <h5>Portal de Reporte de Incidencias</h5>
+        <p>Universidad Tecnológica de Panamá | Facultad de Ingeniería de Sistemas Computacionales</p>
+   
+
+    <a href="#">
+          <img src="C:\Users\bconcepcion\OneDrive - H. TZANETATOS, INC\Escritorio\my\utp\2026\II SEMESTRE\Desarrollo WEB\LAB4\TZ_RGB_p_Pref.png" alt="Logo HTZ" width="120" height="120">
+    </a>      
+          
+          <form action="#" role="search">
+            <input type="search" name="q" placeholder="Buscar..." required>
+            <button type="submit" class="btn">Buscar</button>
+          </form>
+
+    </header>
+
+    <nav class = "navbar">
+         <ul>
+                <li><a href="#articulos" class="nav-link">Artículos</a></li>
+                <li><a href="#horario" class="nav-link">Horario</a></li>
+                <li><a href="#multimedia" class="nav-link">Multimedia</a></li>
+                <li><a href="#referencias" class="nav-link">Referencias</a></li>
+         </ul>
+    </nav>      
+
+    <main>
+        <section id="Video-Player">
+            <iframe width="640" height="360" 
+            src="C:\Users\bconcepcion\OneDrive - H. TZANETATOS, INC\Escritorio\my\utp\2026\II SEMESTRE\Desarrollo WEB\LAB4\videoPrueba.mp4" title="Reporte de Incidencias" 
+            allowfullscreen></iframe>
+        
+        <h1>Reporte de Incidencias</h1>
+        <p>Este portal está diseñado para facilitar la presentación de reportes de incidencias en por cualquier personal de HTzanetatos, inc. Los usuarios pueden enviar sus reportes a través del formulario proporcionado, y el personal administrativo podrá revisar y gestionar estos reportes de manera eficiente.</p>
+        <span>Nota: Asegúrese de proporcionar información detallada y precisa al enviar un reporte de incidencia para que el equipo de soporte pueda abordar el problema de manera efectiva.</span>
+        <time datetime="2026-09-10">10 de septiembre de 2026</time>
+        <div>
+            <img src="C:\Users\bconcepcion\OneDrive - H. TZANETATOS, INC\Escritorio\my\utp\2026\II SEMESTRE\Desarrollo WEB\LAB4\avatar.png"  alt="Avatar del autor" width="50" height="50">
+            <button type="button" class="btn">Suscribirse</button>
+        </div>
+        </section>
+        <section>
+            <h2>Formulario de Reporte de Incidencias</h2>
+            <form action="#" method="post">
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Agrega un comentario Público..." required></textarea><br><br>
+               
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="nombre">Nombre:</label><br>
+                <textarea id="nombre" name="nombre" rows="1" cols="50" required></textarea><br><br>
+
+                <button type="submit" class="btn">Comentar</button>
+            </form>
+        </section>
+
+        <h3>Comentarios Recientes</h3>
+        <article class="card">
+            <div>
+                <p><strong>Usuario1:</strong> Excelente portal, muy útil para reportar incidencias.</p>
+            </div>
+        </article>
+        <article class="card">
+            <div>
+                <p><strong>Usuario2:</strong> Me gustaría ver más opciones de seguimiento de mis reportes.</p>
+            </div>
+        </article>
+        <article class="card">
+            <div>
+                <p><strong>Usuario3:</strong> La interfaz es amigable y fácil de usar.</p>
+            </div>
+        </article>
+    </main>
+
+    <h4>Recursos Adicionales</h4>
+    <aside id="sugeridos">
+        <article>
+            <ul>
+                <li><a href="#">Prensa</a></li>
+            </ul>
+        </article>
+        <article>
+            <ul>
+            <li><a href="#">Copyright</a></li>
+            </ul>
+        </article>
+        <article>
+            <ul>
+                <li><a href="#">Terminos</a></li>
+            </ul>
+        </article>
+        <article>
+            <ul>
+                <li><a href="#">Privacidad</a></li>
+            </ul>
+        </article>
+    </aside>
+    
+    <footer id="pie">
+        <p>&copy; 2026 Universidad Tecnológica de Panamá | Facultad de Ingeniería de Sistemas Computacionales</p>
+    </footer>
+
+</body>
+
+</html>
